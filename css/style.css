@@ -1,1 +1,54 @@
+@font-face {
+    font-family: "font-1";
+    src: url(Intrepid-ExtraBold/intreb.ttf);
+}
 
+@font-face {
+    font-family: "font-2";
+    src: url(Demo_Fonts/gelica-regular.otf);
+}
+
+html{
+    background-color: rgba(250, 235, 215, 0.767);
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+.photo img{
+   max-width: 100%;
+   align-content: center;
+}
+.nav-bar_title{
+    text-align: center;
+    font-size: 10pt;
+    background-color: rgb(237, 76, 35);
+    color: white;
+    font-family: "font-1";
+    margin-bottom: 0;
+    padding: 0 0;
+}
+.nav-bar_nav{
+    list-style: none;
+    background-color: #f3e9d7;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.nav-bar li{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12pt;
+    font-family: "font-2";
+    color:rgb(237, 76, 35);
+    border-right: 1pt solid rgb(237, 76, 35);
+    padding-right: 30px;
+
+
+}
